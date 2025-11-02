@@ -16,7 +16,7 @@ Ce site web est une collection de recettes simples, organisé autour d'une page 
 - Appliquer une hiérarchie claire et une navigation simple.
 
 ### Structure du projet
-
+```
 odin-recipes/
 ├─ index.html
 ├─ README.md
@@ -24,3 +24,4 @@ odin-recipes/
    ├─ burger.html
    ├─ lasagna.html
    └─ omelette.html
+```
