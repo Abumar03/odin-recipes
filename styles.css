@@ -1,0 +1,22 @@
+.container {
+    border: 2px black solid;
+    height: auto;
+    width: 500px;
+    background-color: rgba(122, 139, 127, 0.596);
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 25px;
+}
+
+li {
+    padding: 4px;
+}
+
+body {
+    background-color:honeydew;
+}
