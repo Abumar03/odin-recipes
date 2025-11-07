@@ -1,27 +1,28 @@
-# odin-recipes
+# Odin Recipes
 
-**Projet : Site de recettes basique en HTML**
-Ce projet est un exercice pratique pour appliquer mes connaissances en HTML dans le cadre du parcours [The Odin Project](https://www.theodinproject.com/).
+## Objectif
+Créer un site de recettes en HTML pur pour pratiquer la structure de base.
 
-## Description
-Ce site web est une collection de recettes simples, organisé autour d'une page d'accueil (`index.html`) qui contient des liens vers plusieurs pages de recettes. Chaque page de recette détaille les ingrédients, les étapes de préparation, et peut inclure des images ou des conseils.
+## Structure
+- **index.html** : Page d’accueil avec liens vers les recettes.
+- **/recipes/** : Dossier contenant les pages de recettes (ex: `lasagna.html`).
 
-### Objectifs d'apprentissage
-À travers ce projet, je démontre ma capacité à :
-- Structurer une page web avec des balises HTML sémantiques (`<header>`, `<main>`, `<section>`, `<footer>`, etc.).
-- Créer des liens entre les pages (`<a>`).
-- Organiser du contenu avec des listes (`<ul>`, `<ol>`, `<li>`).
-- Intégrer des images (`<img>`) et des titres (`<h1>` à `<h6>`).
-- Utiliser des paragraphes (`<p>`) et des commentaires HTML.
-- Appliquer une hiérarchie claire et une navigation simple.
+## Consignes
+1. **Page d’accueil** : Titre "Odin Recipes" + liste de liens vers les recettes.
+2. **Pages recettes** :
+   - Titre (h1)
+   - Image du plat
+   - Description (paragraphe)
+   - Ingrédients (liste non ordonnée)
+   - Étapes (liste ordonnée)
+3. **Liens** : Retour vers l’accueil sur chaque page recette.
 
-### Structure du projet
-```
-odin-recipes/
-├─ index.html
-├─ README.md
-└─ recipes/
-   ├─ burger.html
-   ├─ lasagna.html
-   └─ omelette.html
-```
+## Étapes
+1. Créer un dépôt GitHub `odin-recipes`.
+2. Structurer le HTML (pas de CSS).
+3. Déployer avec [GitHub Pages](https://pages.github.com/).
+
+## Notes
+- **3 recettes minimum**.
+- **Pas de style** (CSS viendra plus tard).
+- **Images libres de droits** → créditer si nécessaire.
